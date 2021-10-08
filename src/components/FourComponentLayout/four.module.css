@@ -1,0 +1,119 @@
+.section {
+    position: relative;
+    overflow: hidden;
+    padding: 100px 64px;
+}
+
+.container {
+    position: relative;
+    z-index: 11;
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h2-four {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 40px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.h4-four {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.row {
+    position: relative;
+    display: flex;
+    margin-right: -24px;
+    margin-left: -24px;
+    flex-wrap: nowrap;
+}
+
+.col {
+    display: flex;
+    width: 50%;
+    padding-right: 24px;
+    padding-left: 24px;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.video {
+    margin-top: 32px;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.video:before {
+    content: " ";
+    display: table;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2;
+}
+
+
+.h4-four {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+.col-two {
+    width: 33.333333333333336%;
+    margin-bottom: 30px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.container-games {
+    margin-top: 80px;
+    position: relative;
+    z-index: 11;
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_four {
+    display: block;
+    max-width: 100%;
+    margin-right: auto;
+}
+
+.h4_four-games {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.h3-four-games {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 1.3;
+    font-weight: 700;
+}

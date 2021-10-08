@@ -1,0 +1,41 @@
+.container {
+    position: relative;
+    overflow: hidden;
+    padding: 100px 64px;
+}
+
+.component {
+    max-width: 760px;
+    position: relative;
+    z-index: 11;
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h2_ten {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 40px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.faq__question {
+    margin-top: 48px;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.aq__question-button {
+    border-bottom: 1px solid rgba(202, 202, 202, 0.57);
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}

@@ -1,0 +1,224 @@
+.section-form {
+    overflow: hidden;
+    background-color: #642ca9;
+    color: #fff;
+    position: relative;
+    padding: 100px 64px;
+}
+
+.container {
+    position: relative;
+    z-index: 11;
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-heading {
+    max-width: 640px;
+    margin-right: auto;
+    margin-bottom: 44px;
+    margin-left: auto;
+    color: #fff;
+    font-size: 42px;
+    line-height: 1.3;
+    text-align: center;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+.form-inner {
+    background-color: transparent;
+    max-width: 800px;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    margin-right: auto;
+    margin-bottom: 32px;
+    margin-left: auto;
+    justify-content: center;
+    align-items: stretch;
+    text-align: left;
+}
+
+.form__item {
+    color: #000;
+    background-color: #d8bbff;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    display: flex;
+    width: 50%;
+    padding: 40px 30px 32px;
+    align-items: center;
+}
+
+.form-content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: auto;
+}
+
+.big-p {
+    opacity: 0.4;
+    font-size: 20px;
+    text-align: left;
+}
+
+.price-wrap-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    max-width: 320px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.old-prise {
+    margin-top: 0;
+    margin-right: 12px;
+    margin-bottom: 0;
+    font-size: 28px;
+    line-height: 24px;
+    color: black;
+}
+
+.full-price {
+    opacity: 1;
+}
+
+.midl-text {
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 500;
+    margin-bottom: 48px;
+}
+
+.bold-price-yellow {
+    opacity: 1;
+    color: #f8fc18;
+    font-weight: bold;
+}
+
+.opacity-40 {
+    opacity: 0.4;
+}
+
+.form-bold {
+    color: #000;
+    margin-bottom: 27px;
+    font-size: 17px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.small-p {
+    margin-bottom: 36px;
+}
+
+.desc-text-wrap {
+    border-color: #000;
+    color: #000;
+    font-size: 15px;
+    margin-top: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.form__item-right {
+    border-radius: 0 15px 15px 0;
+    width: 50%;
+    padding: 40px 30px 32px;
+    align-items: center;
+    background-color: #fff;
+}
+
+.email-form {
+    margin: 0 0 15px;
+    text-align: left;
+}
+
+.form {
+    text-align: center;
+}
+
+.form__title {
+    margin-bottom: 24px;
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+}
+
+.form-block-field-2 {
+    margin-bottom: 27px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 0;
+    border-style: none none solid;
+    border-width: 1px;
+    border-color: #000 #000 rgba(0, 0, 0, 0.18);
+    background-color: transparent;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    height: 23px;
+    line-height: 1.42857143;
+    color: #333333;
+    vertical-align: middle;
+    outline: none;
+}
+
+
+.container-input {
+    position: relative;
+    display: flex;
+    height: 40px;
+    margin-top: 32px;
+    margin-bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.btn-input-send {
+    background-color: #fac800;
+    color: #000;
+    font-weight: 600;
+    display: block;
+    margin: 20px auto 16px;
+    padding: 12px 60px;
+    border: 1px none #000;
+    border-radius: 64px;
+    transition: transform 200ms ease;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+    cursor: pointer;
+}
+
+.form-block-desc-2 {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.43);
+    font-size: 11px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+a {
+    outline: none;
+}

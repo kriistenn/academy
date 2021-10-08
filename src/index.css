@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.faq__desc.show-description {
+  height: 3rem;
+  margin-bottom: 15px;
+}
+
+/* Arrows */
+
+/* closed */
+.faq__question-button::after {
+  transition: transform 300ms ease-out;
+}
+
+/* open */
+.font-weight-bold::after {
+  transform: rotate(720deg);
+}
+
+.faq {
+  width: 100%;
+  padding-top: 65px;
+  padding-bottom: 80px;
+}
+.faq__title {
+  margin: 0;
+  padding-bottom: 25px;
+}
+.faq__question {
+  max-width: 350px;
+  width: 100%;
+  border-bottom: 1px solid blue;
+}
+.faq__question-button {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+}
+/*.faq__question-button::after {*/
+/*  content: url("./toggle-plus.svg");*/
+/*  margin-right: 17px;*/
+/*  transform: rotate(90deg);*/
+/*}*/
+.faq__question-button:hover {
+  color: red;
+}
+.faq__desc {
+  margin-left: -40px;
+  padding-right: 17px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 200ms ease-out;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: blue;
+  padding-top: 10px;
+}
+.attribution a {
+  color: palevioletred;
+}
+
+.toggle-title {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 700;
+}

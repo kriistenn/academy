@@ -1,0 +1,73 @@
+.section {
+    position: relative;
+    overflow: hidden;
+    padding: 100px 64px;
+}
+
+.container {
+    position: relative;
+    z-index: 11;
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin-right: -24px;
+    margin-left: -24px;
+    flex-wrap: nowrap;
+}
+
+.col {
+    display: flex;
+    position: relative;
+    width: 50%;
+    padding-right: 24px;
+    padding-left: 24px;
+    flex-direction: column;
+    align-items: stretch
+}
+
+.h2-two {
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 40px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.check-list {
+    margin-top: 72px;
+    margin-bottom: -40px;
+    padding-left: 0;
+}
+
+.check-li {
+    min-height: 72px;
+    margin-bottom: 40px;
+    padding-left: 80px;
+    background-image: url('./checked.png');
+    background-position: 0 0;
+    background-size: 60px;
+    background-repeat: no-repeat;
+    font-size: 24px;
+    list-style-type: none;
+}
+
+.img_person {
+    display: block;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0;
+}

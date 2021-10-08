@@ -222,3 +222,26 @@
 a {
     outline: none;
 }
+
+@media (max-width: 850px) {
+    .form-inner {
+        flex-direction: column;
+    }
+    .form__item {
+        width: 84%;
+        margin-bottom: 10px;
+    }
+    .form__item-right {
+        width: 84%;
+    }
+}
+
+@media (max-width: 500px) {
+    .section-form {
+        padding: 100px 12px;
+    }
+
+    .form-heading {
+        font-size: 29px;
+    }
+}

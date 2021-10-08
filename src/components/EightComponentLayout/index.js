@@ -35,34 +35,7 @@ const EightComponentLayout = () => {
                     </div>
                 </div>
             </div>
-            {/*<div className={styles['container-sales']}>*/}
-            {/*    <img alt={'star'} className={styles['bg-img']} src={space} />*/}
-            {/*    <img alt={'star'} className={styles['bg-img_two']} src={star_two} />*/}
-            {/*    <div className={styles['economy-block']}>*/}
-            {/*        <h2 className={styles['h2_eight-economy']}>Учитесь и экономьте</h2>*/}
-            {/*        <div className={styles["center-text-eight"]}>Оставьте заявку, и наш менеджер расскажет подробности.</div>*/}
-            {/*        <div className={styles['economy-item']}>*/}
-            {/*            <div className={styles['economy-percent']}>*/}
-            {/*                <div className={styles['economy-percent-text']}>-5%</div>*/}
-            {/*            </div>*/}
-            {/*            <div className={styles['economy-text-wrap']}>*/}
-            {/*                <p className={styles['economy-text-wrap_p']}>*/}
-            {/*                    Получите скидку 5% при покупке двух и более курсов за полгода.*/}
-            {/*                </p>*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*        <div className={styles['economy-item']}>*/}
-            {/*            <div className={styles['economy-percent']}>*/}
-            {/*                <div className={styles['economy-percent-text']}>-5%</div>*/}
-            {/*            </div>*/}
-            {/*            <div className={styles['economy-text-wrap']}>*/}
-            {/*                <p className={styles['economy-text-wrap_p']}>*/}
-            {/*                    Получите скидку 5% при покупке двух и более курсов за полгода.*/}
-            {/*                </p>*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
+
         </div>
     )
 }

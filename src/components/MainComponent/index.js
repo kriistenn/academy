@@ -10,9 +10,6 @@ const MainComponent = () => {
             <img src={circle} className={styles['hu-oval-2']} alt={'circle'}/>
             <div className={styles['hero-container-new']}>
                 <div className={styles['hero-text-wrap']}>
-                    {/*<div className={styles['hero-age']}>*/}
-                    {/*    11-17 лет*/}
-                    {/*</div>*/}
                     <h1>Разработка игр на&nbsp;Unity</h1>
                     <p className={styles["hero-p"]}>Под руководством опытного преподавателя ученики создадут 3D-игру: разработают
                         сюжет, дизайн и механику.</p>
@@ -22,7 +19,6 @@ const MainComponent = () => {
                         </button>
                     </div>
                 </div>
-                <img className={styles['boy_img']} alt={'boy'} src={boy_img}/>
                 <img className={styles['circle_two']} alt={'circle'} src={circle_2}/>
             </div>
         </div>

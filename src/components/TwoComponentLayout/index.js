@@ -15,7 +15,7 @@ const TwoComponentLayout = () => {
                             <li className={styles["check-li"]}>Всем, кто хочет творить и создавать новое</li>
                         </ul>
                     </div>
-                    <div className={styles['col']}>
+                    <div className={styles['col-2']}>
                         <img alt={'person'} className={styles['img_person']} src={person}/>
                     </div>
                 </div>

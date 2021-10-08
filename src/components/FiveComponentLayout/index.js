@@ -9,7 +9,7 @@ const FiveComponentLayout = () => {
         <div className={styles['section']}>
             <div className={styles['container']}>
                 <h2 className={styles['h2-five']}>Как проходит учёба</h2>
-                <div className={styles['row-five']}>
+                <div className={styles['row-five-one']}>
                     <div className={styles['col-five']}>
                         <img alt={'one'} src={three} className={styles['how-img']} />
                     </div>
@@ -29,7 +29,7 @@ const FiveComponentLayout = () => {
                         <img alt={'one'} src={two} className={styles['how-img']} />
                     </div>
                 </div>
-                <div className={styles['row-five']}>
+                <div className={styles['row-five-one']}>
                     <div className={styles['col-five']}>
                         <img alt={'one'} src={one} className={styles['how-img']} />
                     </div>

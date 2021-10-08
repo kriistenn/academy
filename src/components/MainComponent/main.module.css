@@ -115,3 +115,43 @@ h1 {
     -ms-transform: translate(40%, -60%);
     transform: translate(40%, -60%);
 }
+
+
+@media (max-width: 500px) {
+    .container {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .hero-p {
+        font-size: 20px;
+    }
+
+    .hero-btn-new {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .hero-p {
+        font-size: 18px;
+    }
+
+    .hero-btn-new {
+        font-size: 13px;
+    }
+}

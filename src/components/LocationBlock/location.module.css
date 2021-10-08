@@ -35,3 +35,12 @@
 .section {
     padding: 100px 64px;
 }
+
+@media (max-width: 900px) {
+    .container {
+        margin: 0 -49px 80px;
+    }
+    .title-main {
+       font-size: 30px;
+    }
+}

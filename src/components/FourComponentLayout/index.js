@@ -10,7 +10,7 @@ const FourComponentLayout = () => {
         <div className={styles['section']}>
             <div className={styles['container']}>
                 <h2 className={styles['h2-four']}>На Unity создают</h2>
-                <div className={styles['row']}>
+                <div className={styles['row-one']}>
                     <div className={styles['col']}>
                         <div className={styles['video']}>
                             <ReactPlayer width="250px" height="140px" controls url='https://www.youtube.com/watch?v=7sDY4m8KNLc'  />

@@ -31,7 +31,6 @@
     display: flex;
     margin-right: -24px;
     margin-left: -24px;
-    flex-wrap: wrap;
 }
 
 .item-give {
@@ -166,4 +165,43 @@
     text-align: left;
     margin-bottom: 0px;
     line-height: 1.4;
+}
+
+@media (max-width: 1130px)  {
+    .item-give {
+        padding-right: 17px;
+        padding-left: 17px;
+    }
+}
+
+
+@media (max-width: 930px)  {
+    .item-give {
+        padding-right: 17px;
+        padding-left: 17px;
+        width: 33.333333%;
+    }
+
+    .container-give {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .half-h2 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 700px) {
+    .item-give {
+        width: 70.333333%;
+    }
+
+    .section {
+        padding: 100px 32px;
+    }
+
+    .half-h2 {
+        width: 100%;
+    }
 }

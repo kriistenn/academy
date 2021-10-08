@@ -37,6 +37,16 @@
     align-items: stretch
 }
 
+.col-2 {
+    display: flex;
+    position: relative;
+    width: 50%;
+    padding-right: 24px;
+    padding-left: 24px;
+    flex-direction: column;
+    align-items: stretch
+}
+
 .h2-two {
     position: relative;
     margin-bottom: 0;
@@ -70,4 +80,47 @@
     margin-right: auto;
     margin-left: auto;
     padding-top: 0;
+}
+
+@media (max-width: 831px) {
+    .section {
+        padding: 100px 35px;
+    }
+
+    .col-2{
+        display: none;
+    }
+
+    .col {
+        width: 78%;
+    }
+
+    .h2-two {
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 500px) {
+    .check-li {
+        font-size: 20px;
+        background-size: 52px;
+    }
+
+    .col {
+        padding-right: 17px;
+        padding-left: 17px;
+    }
+    .h2-two {
+        font-size: 29px;
+    }
+}
+
+@media (max-width: 400px) {
+    .check-li {
+        font-size: 17px;
+    }
+
+    .h2-two {
+        font-size: 24px;
+    }
 }

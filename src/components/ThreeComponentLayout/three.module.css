@@ -70,3 +70,38 @@ p {
     line-height: 1.4;
     margin-top: 0;
 }
+
+@media (max-width: 830px) {
+    .row {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .col {
+        width: 50.333333%;
+    }
+
+    .h2-three {
+        width: 100%;
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 500px) {
+    .col {
+        width: 100.333333%;
+    }
+
+    .h2-three {
+        font-size: 29px;
+    }
+
+    .section {
+        padding: 100px 34px;
+    }
+
+    .col {
+        padding-right: 8px;
+        padding-left: 4px;
+    }
+}
